@@ -44,11 +44,11 @@ document.querySelector(".pbtm").addEventListener("click", function (details) {
     getNewHit();
     makeBubble();
   }
-  //   if (value === 100) {
-  //     document.querySelector(
-  //       ".pbtm"
-  //     ).innerHTML = `<h1>Fhuiyooo!!! You won the game 🥳</h1>`;
-  //   }
+  if (value === 100) {
+    document.querySelector(
+      ".pbtm"
+    ).innerHTML = `<h1>Fhuiyooo!!! You won the game 🥳</h1>`;
+  }
 });
 
 getNewHit();
